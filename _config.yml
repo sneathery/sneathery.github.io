@@ -1,0 +1,21 @@
+# Site settings
+title: Transformative Wanders
+header-img: img/home-bg.png
+email: neathery.stacey@gmail.com
+copyright_name: sneathery
+description: > # this means to ignore newlines until "baseurl:"
+  Transformative experiences and the directions we take
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  sneathery
+learn_profile: sneathery
+email_username: neathery.stacey@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
